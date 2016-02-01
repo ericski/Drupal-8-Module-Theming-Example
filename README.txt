@@ -1,5 +1,7 @@
 This is a demo drupal 8 module that demonstrates the full request -> response life cycle using custom theming.
 
+This module is a slightly modified version of a gist (https://gist.github.com/jmolivas/d29065493a91f16f35b2) by @jmolivas
+
 We define a route in the acme.route.yml file which points to the path /acme/hello/{name}
 
 {name} will be captured in the mapped function in a controller as the variable $name
