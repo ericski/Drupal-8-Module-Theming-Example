@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains acme.module..
+ */
+
+
+/**
+ * Implements hook_theme()
+ * @return mixed
+ */
+function acme_theme() {
+  $theme['hello_page'] = [
+    'variables' => ['name' => NULL],
+    'template' => 'hello',
+  ];
+
+  return $theme;
+}

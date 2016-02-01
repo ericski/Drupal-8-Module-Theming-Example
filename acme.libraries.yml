@@ -1,0 +1,5 @@
+acme-styles:
+  version: 8.0.0
+  css:
+    base:
+      css/acme.css: {}

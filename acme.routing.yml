@@ -1,0 +1,7 @@
+acme_hello:
+  path: /acme/hello/{name}
+  defaults:
+    _controller:  Drupal\acme\Controller\DefaultController::hello
+    _title: 'acme title'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: Acme Theming
+type: module
+description: Theming example
+core: 8.x
+package: Custom
